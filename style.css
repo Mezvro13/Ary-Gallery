@@ -1,0 +1,357 @@
+@media screen and (min-width: 375px) {
+    body{
+        margin:0px
+    }
+    #yuti{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+    #tablet{
+        display: none;
+    }
+    #desktop{
+        display: none;
+    }
+    #start>h1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 55px;
+        text-transform: uppercase;
+        color: #151515;
+        padding: 32px 16px 0px 16px;
+    }
+    #start>p{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+        padding: 32px 16px 0px 16px;
+    }
+    #start>a>p{
+        background-color: #151515;
+        color: #FFFFFF;
+        padding: 24px 35px 24px 32px; 
+        width: 119px;
+    }
+    #start>a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin-left: 16px;
+    }
+    #start>a>img{
+        width: 8px;
+        height: 18px;
+        background: #D5966C;
+        padding: 24px;
+    }
+    #mobile1{
+        display: block;
+    }
+    #tablet1{
+        display: none;
+    }
+    #desktop1{
+        display: none;
+    }
+    #tablet2{
+        display: none;
+    }
+    #tablet3{
+        display: none;
+    }
+    #desktop2{
+        display: none;
+    }
+    #desktop3{
+        display: none;
+    }
+    #info>img{
+        padding: 120px 16px 0px 16px;
+    }
+    #start2>h1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #151515;
+        padding: 25px 16px 21px 16px;
+        margin: 0px;
+    }
+    #start2>p{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+        margin: 0px;
+        padding: 21px 16px 32px 16px;
+    }
+    #image2{
+        height: 480px;
+        padding: 32px 16px 16px 16px;
+    }
+    #image3{
+        padding:0px 16px 16px 16px;
+    }
+    #last{
+        background-color: #151515;
+        padding: 0px 16px 0px 16px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    #last>h1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 48px 24px 0px 24px;
+        margin: 0px;
+    }
+    #last>p{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding: 24px 24px 47px 24px;
+        margin: 0px;
+    }
+    #end{
+        background-color: #151515;
+        margin-top: 120px;
+    }
+    #end>img{
+        padding: 48px 233px 38px 32px;
+        
+    }
+    #end>p{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding: 10px 32px 41px 32px;
+        margin: 0px;
+        width: 300px;
+        
+    }
+    #icons{
+        padding: 0px 0px 0px 22px;
+        background-color: #151515;
+
+    }
+    #icons>img{
+        padding: 0px 10px;
+        margin-bottom: 48px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #mobile{
+        display: none;
+    }
+    #tablet{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+    #image2{
+        display: none;
+    }
+    #image3{
+        display: none;
+    }
+    #tablet2{
+        display: block;
+    }
+    #tablet3{
+        display: block;
+    }
+    #mobile1{
+        display: none;
+    }
+    #tablet1{
+        display: block;
+    }
+    #yuti{
+        display: block;
+    }
+    #mein{
+        display: flex;
+    }
+
+    #start>p{
+        width: 339px;
+    }
+    #info{
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 120px 40px 0px 40px;
+    }
+    #start2>h1{
+        width: 223px;
+    }
+    #start2>p{
+        width: 223px;
+    }
+    #info>img{
+        padding: 0px
+    }
+    #potos{
+        display: flex;
+    }
+    #tablet2{
+        padding: 11px 0px 120px 39px;
+    }
+    #last{
+        width: 280px;
+        margin: 0px;
+        padding: 0px;
+        height: 396px;
+        margin-left: 11px;
+    }
+    #mtavari{
+        display: flex;
+        padding: 11px 40px 0px 40px;
+    }
+    #tablet3{
+        padding: 0px 0px 11px 11px;
+    }
+    #end{
+        display: flex;
+        justify-content: space-between;
+        padding: 56px 39px;
+    }
+    #end>img{
+        padding: 0px;
+        height: 40px;
+    }
+    #end>p{
+        padding: 0px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    
+    #mobile{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #desktop{
+        display: block;
+    }
+    #desktop1{
+        display: block;
+    }
+    #tablet1{
+        display: none;
+    }
+    #desktop2{
+        display: block;
+    }
+    #desktop3{
+        display: block;
+    }
+    #tablet3{
+        display: none;
+    }
+    #poto5{
+        display: none;
+    }
+    #start{
+        position: relative;
+        right: 100px;
+    }
+    :root{
+        --color-2: white;
+        --color-1: black;
+    }
+    
+    #start>h1{
+        width: 514px;
+        position: relative;
+        right: 670px;
+        font-size: 96px;
+        line-height: 88px;
+        color:transparent;
+        background:linear-gradient(
+            270deg,
+            var(--color-1) 60%,
+            transparent 59%, transparent 60%,
+            var(--color-2), var(--color-2) 39%
+            );
+            -webkit-background-clip: text;
+    }
+    #yuti{
+        background-color: #151515;
+        width: 450px;
+        height: 799px;
+    }
+    #info{
+        padding: 180px 164px 30px 164px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #desktop3{
+        width: 100%;
+    }
+    #mtavari{
+        padding: 0px 165px;
+    }
+    #bolo{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 30px;
+       
+    }
+    #desktop3{
+        width: 445px;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+    #last{
+        width: 445px;
+        margin: 0px;
+    }
+    #last>h1{
+        padding: 65px 27px 32px 65px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #last>p{
+        padding: 0px 47px 65px 47px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    #end{
+        padding: 80px 165px;
+    }
+    #end>img{
+        width: 160px;
+        height: 58px;
+    }
+    #end>p{
+        width: 430px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+}

@@ -1,0 +1,191 @@
+@media screen and (min-width: 375px) {
+    body{
+        margin: 0px;
+    }
+    #map>a>img{
+        width: 8px;
+        height: 18px;
+        background: #D5966C;
+        padding: 24px;
+    }
+    #map>a>p{
+        background-color: #151515;
+        color: #FFFFFF;
+        padding: 24px 35px 24px 32px; 
+        width: 128px;
+        margin: 0px;
+    }
+    #map>a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+    #box{
+        background-color: #151515;
+        margin: -4px;
+    }
+    #satauri{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0px;
+        padding: 48px 16px;
+    }
+    #qvesatauri{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #D5966C;
+        padding: 0px 16px 20px 16px;
+        margin: 0;
+    }
+    #paragrapi{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 0px;
+        padding: 0px 16px 20px 16px;
+    }
+    #qveparagrapi{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 0px;
+        padding: 0px 16px 56px 16px;
+    }
+    #end{
+       background-color:  #D5966C;
+    }
+    #end>img{
+        padding: 48px 233px 38px 32px;
+    }
+    #end>p{
+        margin: 0px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #151515;
+        padding: 10px 32px 41px 32px;
+    }
+    #icons{
+        background-color: #D5966C;
+        padding: 0px 0px 0px 22px;
+        
+    }
+    #icons>i{
+        padding: 0px 10px;
+        margin-bottom: 48px;
+        font-size:20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    body{
+        margin:0px;
+    }
+    #mobile{
+        display: none;
+    }
+    #tablet{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+    #map>a{
+        margin-left: 35px;
+    }
+    #box{
+        display: flex;
+        justify-content: space-around;
+        padding: 88px 40px 80px 26px;
+    }
+    #satauri{
+        padding: 0px;
+    }
+    #trio{
+        margin-left: 68px;
+    }
+    #trio>p{
+        width:398px
+    }
+    #end{
+        justify-content: space-between;
+        display: flex;
+        padding: 56px 40px;
+        
+    }
+    #end>img{
+        padding: 0px;
+        height: 40px;
+       
+    }
+    #end>p{
+       padding: 0px;
+       width: 281px;
+    }
+    #i{
+        padding: 0px 0px 0px 22px ;
+    }
+}
+@media screen and (min-width: 1440px) {
+    body{
+        margin: 0px;
+    }
+    #mobile{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #desktop{
+        display: block;
+    }
+    #tablet2{
+        display: none;
+    }
+    #map>a{
+        margin-left: 158px;
+    }
+    #satauri{
+        width: 250px;
+    }
+    #qvesatauri{
+        padding: 0px;
+        padding-bottom: 24px;
+    }
+    #paragrapi{
+        padding: 0px;
+        padding-bottom: 32px;
+    }
+    #qveparagrapi{
+        padding: 0px;
+        width: 540px;
+    }
+    #end{
+        padding: 80px 165px;
+
+    }
+    #end>img{
+        width: 160px;
+        height: 58px;
+    }
+    #end>p{
+        width: 430px;
+    }
+}
